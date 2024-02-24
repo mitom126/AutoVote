@@ -3,7 +3,7 @@
 import asyncio
 import time
 from pyppeteer import launch
-#Click nút vào trang bình chọn
+#vào trang bình chọn
 async def main():
     browser = await launch(executablePath='D:\\p\\chrome.exe', headless=False)
     page = await browser.newPage()
